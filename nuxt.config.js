@@ -11,12 +11,12 @@ export default {
       {
         name: "description",
         content:
-          "Check out my little portfolio and learn more about me before checking my other projects! This page will help you a lot about learning more about who's EGGSY."
+          "Check out my little portfolio and learn more about me before checking my other projects! This page will help you a lot about learning more about who's Arda."
       },
       {
         name: "og:description",
         content:
-          "Check out my little portfolio and learn more about me before checking my other projects! This page will help you a lot about learning more about who's EGGSY."
+          "Check out my little portfolio and learn more about me before checking my other projects! This page will help you a lot about learning more about who's Arda."
       },
       {
         name: "og:site_name",
