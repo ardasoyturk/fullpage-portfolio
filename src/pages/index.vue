@@ -6,12 +6,12 @@
           <img
             class="avatar w-32 h-32 mx-auto mb-2"
             draggable="false"
-            src="/images/me2019.jpeg"
-            alt="irl-image"
+            src="/images/barney.png"
+            alt="image"
           />
 
           <div class="text-center">
-            <h2 class="text-lg">Abdulbaki "EGGSY" Dursun</h2>
+            <h2 class="text-lg">Arda Soytürk</h2>
             <div
               class="select-none cursor-pointer text-purple-500 mb-1"
               @click="randomRank"
@@ -30,9 +30,7 @@
       <div class="text-left">
         <h1 class="text-lg title">Who am I?</h1>
         <p class="appear text-left">
-          I am a Turkish student who is interested in programming and English literature. I
-          am trying my best to bring useful and good ideas to the world, I program for fun,
-          necessity or time-killing, I am actually trying to become an English teacher.
+          I am a Turkish student who is interested in programming, playing games and watching series. I program JavaScript most and I hope I will learn other languages as well. I love watching series, they help me spend time. And I think that's pretty much it. :)
         </p>
       </div>
 
@@ -54,27 +52,8 @@
         <Skills />
       </div>
 
-      <div class="select-none bottom-text text-center text-gray-700" @click="moveDown">
-        <span>scroll down</span>
-      </div>
-    </div>
-
-    <div class="container text-gray-700 max-w-md">
-      <div class="text-left">
-        <h1 class="text-lg title">Learn more about me!</h1>
-        <p class="appear text-left">
-          These are nothing compared to what I do on my main website! Please don't forget to check
-          <a
-            href="https://eggsy.xyz"
-            class="underline"
-            target="_blank"
-          >my website</a> to see my
-          projects and learn more about me.
-        </p>
-      </div>
-
-      <div class="select-none bottom-text text-center text-gray-700" @click="goTop">
-        <span>go back to top</span>
+      <div class="select-none bottom-text text-center text-gray-700">
+        <span><nuxt-link to="https://github.com/ardasoyturk/fullpage-portfolio">source code of this website</nuxt-link></span>
       </div>
     </div>
   </full-page>
@@ -156,19 +135,16 @@ export default {
         "Turkish",
         "Vue Lover",
         "Programmer",
-        "Still Young™",
-        "Best Googler",
+        "Professional Javascript Player",
         "Sometimes Kid",
         "Netflix Lover",
-        "Uses DuckDuckGo",
         "Backend Developer",
         "Not-Much-A-Person",
         "Stack Overflow FTW!",
-        "Frontend Developer",
-        "Full Stack Developer",
-        "Prefers YouTube Music over Spotify",
+        "Discord Bot Dev",
+        "Prefers Spotify to others",
       ],
-      rank: "Full Stack Developer",
+      rank: "a student from turkey",
     };
   },
   methods: {
