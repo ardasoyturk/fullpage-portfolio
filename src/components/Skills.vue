@@ -44,7 +44,7 @@ export default {
       skills: [
         {
           name: "JavaScript",
-          rate: 100,
+          rate: 99,
           icon: require("../assets/icons/javascript.svg"),
         },
         {
@@ -54,17 +54,17 @@ export default {
         },
         {
           name: "TypeScript",
-          rate: 85,
+          rate: 60,
           icon: require("../assets/icons/typescript.svg"),
         },
         {
           name: "Nuxt.js",
-          rate: 80,
+          rate: 70,
           icon: require("../assets/icons/nuxtjs.svg"),
         },
         {
           name: "Vue.js",
-          rate: 70,
+          rate: 75,
           icon: require("../assets/icons/vuejs.svg"),
         },
       ],
