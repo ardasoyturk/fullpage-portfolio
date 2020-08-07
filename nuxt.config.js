@@ -4,7 +4,7 @@ export default {
   rootDir: "./",
   srcDir: "src",
   head: {
-    title: "EGGSY | Young JavaScript Developer",
+    title: "Arda Soytürk",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -20,11 +20,11 @@ export default {
       },
       {
         name: "og:site_name",
-        content: "eggsy.js.org"
+        content: "arda.js.org"
       }
     ],
     link: [
-      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+      { rel: "shortcut icon", href: "/favicon.png" },
       {
         rel: "stylesheet",
         href: "https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
