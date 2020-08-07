@@ -53,7 +53,7 @@
       </div>
 
       <div class="select-none bottom-text text-center text-gray-700">
-        <span><nuxt-link to="https://github.com/ardasoyturk/fullpage-portfolio">source code of this website</nuxt-link></span>
+        <span><a href="https://github.com/ardasoyturk/fullpage-portfolio">source code of this website</a></span>
       </div>
     </div>
   </full-page>
